@@ -1,42 +1,67 @@
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-white fixed bottom-0 w-full z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-3">
+      <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col md:flex-row justify-between items-center gap-2 text-sm">
         
         {/* Left */}
-        <p className="text-sm text-gray-400">
-          © {new Date().getFullYear()} Siva Manikanta. All rights reserved.
+        <p className="text-gray-400 text-xs md:text-sm">
+          © {new Date().getFullYear()} Lakshmi Bondada
         </p>
 
-        {/* Center (Optional tagline) */}
-        <p className="text-sm text-gray-500 hidden md:block">
-          Built with React & Tailwind CSS
+        {/* Center */}
+        <p className="text-gray-500 hidden md:block text-xs">
+          Built with React & Tailwind
         </p>
 
-        {/* Right (Social Links) */}
-        <div className="flex gap-4 text-sm">
+        {/* Right */}
+        <div className="flex flex-wrap gap-3 text-xs md:text-sm items-center">
+          
+          {/* Phone */}
           <a
-            href="https://github.com/"
-            target="_blank"
+            href="tel:+919876543210"
             className="hover:text-indigo-400 transition"
           >
-            GitHub
+            📞 +91 98765 43210
           </a>
 
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/919876543210"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-green-400 transition"
+          >
+            💬 WhatsApp
+          </a>
+
+          {/* LinkedIn */}
           <a
             href="https://linkedin.com/"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
           >
             LinkedIn
           </a>
 
+          {/* Naukri */}
+          <a
+            href="https://www.naukri.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400 transition"
+          >
+            Naukri
+          </a>
+
+          {/* Email */}
           <a
             href="mailto:yourmail@gmail.com"
             className="hover:text-indigo-400 transition"
           >
             Email
           </a>
+
         </div>
       </div>
     </footer>
