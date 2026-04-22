@@ -15,12 +15,36 @@ const Contact = () => {
     reset,
   } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
-    console.log("Form Data:", data);
+  // const onSubmit = (data: FormData) => {
+  //   console.log("Form Data:", data);
+  //   alert("Message sent successfully!");
+  //   reset();
+  // };
+
+ 
+const onSubmit = async (data: FormData) => {
+  try {
+    const formData = new FormData();
+    formData.append("name", data.name);
+    formData.append("email", data.email);
+    formData.append("phone", data.phone);
+    formData.append("message", data.message);
+
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbx4lVvrhElzZ-N0HZe7MjFCrNkOQrU8XFPC5qHXersJmGDHAPogQff4sGYIGHpwWXxI/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
     alert("Message sent successfully!");
     reset();
-  };
-
+  } catch (error) {
+    console.error(error);
+    alert("Error submitting form");
+  }
+};
   return (
     <section className="bg-white py-16 px-6 md:px-16">
       <div className="max-w-4xl mx-auto text-center">

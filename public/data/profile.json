@@ -1,0 +1,46 @@
+{
+  "name": "Lakshmi Bondada",
+  "role": "Software Engineer (.NET & React)",
+  "experience": "3.10 years",
+  "description": "I build scalable and user-friendly web applications using modern technologies like React and .NET, focusing on performance and clean design.",
+  "resume": "/Lakshmi_Bondada_Resume.pdf",
+  "image": "Profile-image.png",
+  "myImage": "my-image.jpg",
+
+  "about": {
+    "intro": "Hi, I’m Lakshmi Bondada — a Software Engineer who enjoys turning ideas into real, working products.",
+    "details": "Over the past few years, I’ve been building web applications that are not just functional, but also smooth, reliable, and easy to use. I spend most of my time working with .NET on the backend and React on the frontend. I like solving problems, improving performance, and making sure the user experience feels simple and fast."
+  },
+
+  "work": [
+    {
+      "title": "Backend Development",
+      "description": "I build APIs and handle business logic using .NET, making sure everything runs efficiently and scales well. I also work with databases and optimize queries to improve performance."
+    },
+    {
+      "title": "Frontend Development",
+      "description": "On the frontend, I create responsive and interactive user interfaces using React and TypeScript, focusing on clean design and smooth user experience."
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": "React, TypeScript, Redux, Material UI"
+    },
+    {
+      "category": "Backend",
+      "items": ".NET Core, C#, Web API, Entity Framework, SQL Server"
+    },
+    {
+      "category": "Tools",
+      "items": "Git, Azure Boards, Visual Studio, VS Code"
+    }
+  ],
+
+  "experienceDetails": "I’m currently working at eCTD Global Solutions, where I’ve been involved in developing and improving web applications from both backend and frontend sides. During this time, I’ve worked on building APIs, improving system performance, and making applications faster and more reliable. I also collaborate with my team in Agile sprints to deliver features on time.",
+
+  "achievements": "I was recognized as Employee of the Month for my contributions to improving performance and delivering quality work. I’ve also helped optimize applications, making them faster and more efficient.",
+
+  "education": "Bachelor of Engineering in Computer Science \nSCSVMV University (2016 – 2020)"
+}
