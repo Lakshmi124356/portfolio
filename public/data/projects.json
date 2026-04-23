@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "title": "Industry Iceberg (Current Project)",
+      "domain": "Pharmaceutical Services Platform",
+      "role": "Software Engineer",
+      "content": "Industry Iceberg is a large-scale platform built for the pharmaceutical domain that connects service providers (vendors) with service seekers (users). The system acts as a bridge between companies offering specialized pharma services and businesses looking for those services.",
+      "details": [
+        "Vendors register and provide detailed service info (60+ fields)",
+        "Supports services like CMO, CRO, Clinical, Preclinical, Warehousing",
+        "Users can search and filter using 30+ filters",
+        "Admin team manages and connects vendors & users"
+      ],
+      "scale": "Handles 1M+ records with pagination & caching",
+      "tech": "ASP.NET Core, Web API, REST APIs, C#, SQL Server, Azure Cloud, React, TypeScript, MUI, Redux Toolkit",
+      "contributions": [
+        "Microservices architecture",
+        "Ocelot API Gateway",
+        "CCAvenue Payment Integration",
+        "Serilog logging",
+        "Cosmos DB audit logs",
+        "MongoDB & Redis (POC)",
+        "Redux-Saga, Jest testing"
+      ]
+    },
+    {
+      "title": "eDQR (Electronic Development Quality & Regulatory)",
+      "domain": "Pharmaceutical Document Management System",
+      "role": "Junior Software Engineer",
+      "content": "eDQR is a secure document management platform designed for the pharmaceutical industry. It helps teams create, manage, review, and store regulatory documents in a structured and compliant way.",
+      "details": [
+        "Module-wise document creation",
+        "Secure archival system",
+        "Non-editable finalized documents",
+        "Auto folder structure generation"
+      ],
+      "lifecycle": "Create → In Progress → Review → Approve",
+      "extra": [
+        "Version tracking for all documents",
+        "Full audit traceability"
+      ],
+      "tech": "ASP.NET Core, Web API, REST APIs, C#, SQL Server, Azure Cloud, React, TypeScript, MUI, Redux Toolkit",
+      "contributions": [
+        "Entity Framework Core",
+        "JWT Authentication",
+        "IT Hit WebDAV",
+        "Aspose (Word to PDF)",
+        "React Router, Axios"
+      ]
+    },
+    {
+      "title": "Service Now (Internal Ticketing System)",
+      "domain": "Internal Support & Issue Tracking",
+      "role": "Software Trinee",
+      "content": "Service Now is an internal ticket tracking system used by employees and clients to report, manage, and resolve issues efficiently.",
+      "details": [
+        "Raise and manage tickets",
+        "Auto assignment to teams",
+        "Status tracking and updates"
+      ],
+      "sla": [
+        "Track resolution time",
+        "Monitor team performance"
+      ],
+      "tech": "ASP.NET Core, Web API, C#, SQL Server, React, JavaScript, HTML5, CSS3",
+      "contributions": [
+        "CRUD APIs with validation",
+        "JWT Authentication",
+        "Responsive UI",
+        "Real-time API integration"
+      ]
+    }
+  ]
+}
+

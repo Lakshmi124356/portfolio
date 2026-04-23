@@ -182,3 +182,14 @@
     border-right-color: var(--border);
   }
 }
+
+/* Smooth gradient animation */
+@keyframes gradientMove {
+  0% { transform: translateX(-10%); }
+  50% { transform: translateX(10%); }
+  100% { transform: translateX(-10%); }
+}
+
+.animate-gradient {
+  animation: gradientMove 8s ease-in-out infinite;
+}

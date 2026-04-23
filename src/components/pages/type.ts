@@ -26,3 +26,17 @@ export interface Profile {
   achievements: string;
   education: string;
 }
+
+export interface Project {
+  title: string;
+  domain: string;
+  role: string;
+  content: string;
+  details: string[];
+  tech: string;
+  contributions: string[];
+  scale?: string;
+  lifecycle?: string;
+  extra?: string[];
+  sla?: string[];
+}
